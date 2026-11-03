@@ -1,0 +1,132 @@
+{
+    "Sidebar": {
+        "welcome": "Selamat Datang !",
+        "lastupdate": "Diperbarui pada",
+        "dark": "Gelap",
+        "light": "Terang",
+        "openSource": "Open Source Berlisensi GPL"
+    },
+    "Home": {
+        "greeting": "Hai semuanya",
+        "iam": "Saya",
+        "based": "Berdomisili di Jakarta, Indonesia",
+        "introduction": "Full-stack Developer Berpengalaman",
+        "passion": "Saya antusias menciptakan pengalaman web yang luar biasa dengan membangun aplikasi efisien, skalabel serta solusi digital yang fungsional.",
+        "motto": "Mewujudkan impian digital",
+        "openToOpportunities": "Terbuka untuk kesempatan menarik",
+        "collaboration": "Mari bekerja sama!",
+        "freelance": "Saya terbuka untuk proyek freelance, jangan ragu untuk mengirim email kepada saya untuk melihat bagaimana kita bisa berkolaborasi.",
+        "getInTouch": "Hubungi Saya",
+        "getResume": "Unduh Resume",
+        "share_title": "Website Personal Saya",
+        "thank_you_message": "Terima kasih sudah mengunjungi ! 😊 Yuk, bagikan dengan teman-temanmu. 🎉",
+        "share_link": "Bagikan Link",
+        "link_copied": "Link Tersalin!",
+        "techstack": "Teknologi yang dipakai"
+    },
+    "About": {
+        "title": "Tentang",
+        "metaDesc": "Temukan lebih dalam tentang Teguh Muhammad Harits, seorang Fullstack Developer berpengalaman dengan keterampilan coding web, desain UI/UX, dan pengembangan aplikasi. Mari kita kenal lebih dekat!",
+        "subtitle": "Ayo, kenali saya lebih dekat dan temukan lebih banyak di balik CV saya.",
+        "journeyTitle": "Perjalanan Saya",
+        "valuesTitle": "Nilai dan Filosofi",
+        "funTitle": "Fakta Menarik",
+        "intro": "Hai, saya Teguh Muhammad Harits, seorang pengembang web full-stack yang bersemangat dengan kecintaan dalam menciptakan situs web yang dinamis dan ramah pengguna. Dengan pengalaman lebih dari 2 tahun di industri ini, saya mengkhususkan diri dalam pengembangan front-end dan memiliki perhatian yang tajam terhadap desain dan detail. Tujuan saya adalah untuk menciptakan situs web yang sempurna secara pixel yang tidak hanya memenuhi kebutuhan klien tetapi juga melebihi harapan mereka.",
+        "journey": "Karier saya dalam pengembangan web dimulai selama tahun-tahun saya di Sekolah Menengah, di mana saya mengambil jurusan Teknik Perangkat Lunak. Pekerjaan pertama saya adalah di sebuah software-house kecil, di mana saya belajar dasar-dasar pengembangan web dan menemukan kecintaan saya terhadap coding. Selama bertahun-tahun, saya telah memiliki kesempatan untuk bekerja pada berbagai proyek yang menarik. Setiap pengalaman telah berkontribusi pada pertumbuhan saya sebagai pengembang dan telah membantu saya mengasah keterampilan saya.",
+        "values": "Saya percaya pada pembelajaran berkelanjutan dan pengembangan diri. Saya didorong oleh keinginan untuk menciptakan situs web yang tidak hanya fungsional tetapi juga estetis menyenangkan. Pekerjaan saya dipandu oleh prinsip kesederhanaan, kegunaan, dan aksesibilitas. Saya berusaha untuk mengikuti tren dan teknologi terbaru dalam pengembangan web untuk memastikan bahwa keterampilan saya selalu mutakhir.",
+        "funfact": "Saya belum memiliki fakta menarik 😭."
+    },
+    "Services": {
+        "title": "Layanan",
+        "metaDesc": "Jelajahi layanan khusus yang ditawarkan Teguh Muhammad Harits, mulai dari pengembangan web, pengembangan aplikasi, UI/UX, design, hingga konsultasi. Solusi yang disesuaikan untuk mewujudkan visi digital Anda.",
+        "subtitle": "Temukan layanan khusus yang saya tawarkan untuk klien.",
+        "FAQ": {
+            "faqHeading": "Pertanyaan yang Sering Diajukan",
+            "faqDescription": "Jawaban cepat untuk pertanyaan umum terkait layanan saya",
+            "contactText": "Punya pertanyaan lain?",
+            "contactLink": "Hubungi saya"
+        }
+    },
+    "Contact": {
+        "title": "Hubungi Saya",
+        "metaDesc": "Hubungi Teguh Muhammad Harits untuk kolaborasi atau pertanyaan. Terhubung melalui media sosial atau kirim pesan langsung.",
+        "subtitle": "Ayo, hubungi saya dan mulailah percakapan tentang kemungkinan kerja sama atau pertanyaan Anda.",
+        "findSocial": "Temukan saya di media sosial",
+        "orsendMsg": "Atau kirimkan pesan kepada saya",
+        "name": "Nama",
+        "namePlaceholder": "Masukkan nama Anda *",
+        "mail": "Email",
+        "mailPlaceholder": "Masukkan email Anda *",
+        "projectDesc": "Deskripsi Proyek",
+        "descPlaceholder": "Ceritakan tentang proyek Anda *",
+        "sendMsg": "Kirim Pesan"
+    },
+    "Guestbook": {
+        "title": "Buku Tamu",
+        "metaDesc": "Bagikan pemikiran, saran, atau pertanyaan Anda di buku tamu. Mari kita lanjutkan percakapan!",
+        "subtitle": "Tinggalkan apapun yang ingin kamu katakan, saran, pertanyaan atau apapun!",
+        "signInMessage": "Harap masuk untuk mengirim pesan. Tenang saja, data Anda aman—pelajari lebih lanjut di ",
+        "privacyPolicy": "Kebijakan Privasi"
+    },
+    "Blog": {
+        "title": "Blog",
+        "metaDesc": "Temukan artikel tentang kode, kreativitas, dan pembelajaran dari Teguh Muhammad Harits. Wawasan dan pembaruan dari perjalanan seorang Teguh Muhammad Harits.",
+        "subtitle": "Menjelajahi dunia kode, kreativitas, dan pembelajaran tanpa henti."
+    },
+    "Common": {
+        "comingsoon": "Segera Hadir ....",
+        "back": "Kembali"
+    },
+    "Dashboard": {
+        "title": "Dasbor",
+        "metaDesc": "Jelajahi dashboard pribadi Teguh Muhammad Harits yang menampilkan wawasan kecepatan halaman, kontribusi GitHub, dan kemajuan LeetCode.",
+        "subtitle": "Ini adalah dashboard personal website saya dibuat dengan serverless function.",
+        "pagespeedTitle": "Pagespeed Insight",
+        "githubTitle": "Kontribusi GitHub",
+        "leetcodeTitle": "Statistik LeetCode",
+        "pagespeedSubtitle": "Indeks kecepatan halaman saya oleh Google API",
+        "githubSubtitle": "Kontribusi saya dari tahun lalu di Github.",
+        "leetcodeSubtitle": "Statistik dan kinerja kemajuan LeetCode saya."
+    },
+    "Skillset": {
+        "title": "Keahlian",
+        "metaDesc": "Temukan keterampilan teknis Teguh Muhammad Harits, alat profesional, dan sertifikat yang menunjukkan keahliannya dalam pengembangan Full-stack.",
+        "subtitle": "Jelajahi terkait keahlian teknis dan alat profesional saya.",
+        "certificateTitle": "Sertifikasi",
+        "certificateSubtitle": "Beberapa showcase sertifikat professional saya."
+    },
+    "Experience": {
+        "title": "Pengalaman",
+        "metaDesc": "Jelajahi latar belakang profesional Teguh Muhammad Harits yang menampilkan pengalaman utama dan pencapaian kariernya.",
+        "subtitle": "Temukan latar belakang profesional dan pengalaman berharga saya."
+    },
+    "Portfolio": {
+        "title": "Portofolio",
+        "metaDesc": "Telusuri portofolio Teguh Muhammad Harits yang menampilkan proyek terbaru dan pencapaian kreatifnya dalam pengembangan web, pengembangan aplikasi, desain UI/UX, Design dan lainnya.",
+        "subtitle": "Jelajahi proyek dan karya terbaru saya.",
+        "noPortfolio": "Maaf, saat ini belum ada portfolio untuk kategori {category}",
+        "seePortfolio": "Lihat Proyek"
+    },
+    "Privacy": {
+        "title": "Kebijakan Privasi",
+        "metaDesc": "Pahami bagaimana saya mengelola privasi di situs web ini, termasuk pengumpulan data, penggunaan, dan langkah-langkah keamanan.",
+        "subtitle": "Kebijakan privasi ini menjelaskan bagaimana saya mengumpulkan, menggunakan, dan melindungi informasi Anda.",
+        "information_collected": "Saya mengumpulkan informasi yang Anda berikan secara langsung, seperti nama dan alamat email Anda.",
+        "usage": "Saya menggunakan informasi ini untuk meningkatkan layanan dan berkomunikasi dengan Anda.",
+        "security": "Saya sangat menjaga keamanan informasi Anda dan menerapkan langkah-langkah untuk melindunginya.",
+        "contact": "Jika Anda memiliki pertanyaan, silakan hubungi saya di ",
+        "subtitles": {
+            "information_collected": "Informasi yang Saya Kumpulkan",
+            "usage": "Penggunaan Informasi",
+            "security": "Keamanan Informasi Anda",
+            "contact": "Hubungi Saya"
+        }
+    },
+    "Offline": {
+        "title": "Anda Sedang Offline",
+        "metaDesc": "Anda sedang offline. Silakan periksa koneksi internet Anda dan coba lagi untuk mengakses konten situs web.",
+        "subtitle": "Koneksi internet tidak terdeteksi.",
+        "message": "Sepertinya Anda sedang offline. Periksa koneksi internet Anda dan coba lagi.",
+        "retry": "Coba Lagi"
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "Sidebar": {
+        "welcome": "Welcome !",
+        "lastupdate": "Updated on",
+        "dark": "Dark",
+        "light": "Light",
+        "openSource": "Open Source under GPL License"
+    },
+    "Home": {
+        "greeting": "Hello everyone",
+        "iam": "I'm",
+        "based": "Based in Jakarta, Indonesia",
+        "introduction": "Experienced Full-stack Developer",
+        "passion": "I’m passionate crafting exceptional web experiences by building efficient, scalable with functional and visually appealing digital solutions.",
+        "motto": "Bringing digital dreams to life",
+        "openToOpportunities": "Open to exciting opportunities",
+        "collaboration": "Let's collaborate!",
+        "freelance": "I'm open for freelance work. Don't hesitate to contact me if you want to work together.",
+        "getInTouch": "Get in Touch",
+        "getResume": "Get Resume",
+        "share_title": "My Personal Website",
+        "thank_you_message": "Thank you for visiting ! 😊 Feel free to share with your friends. 🎉",
+        "share_link": "Share Link",
+        "link_copied": "Link Copied!",
+        "techstack": "Technologies Used"
+    },
+    "About": {
+        "title": "About",
+        "metaDesc": "Discover more about Teguh Muhammad Harits, an experienced Fullstack Developer with skills in coding, UI/UX design, and app development. Let's get to know each other better!",
+        "subtitle": "Get to know me a better and discover more beyond the resume.",
+        "journeyTitle": "My Journey",
+        "valuesTitle": "Values and Philosophy",
+        "funTitle": "Fun Facts",
+        "intro": "Hi, I'm Teguh Muhammad Harits, a passionate full-stack web developer with a love for creating dynamic and user-friendly websites. With over 2 years of experience in the industry, I specialize in front-end development and have a keen eye for design and detail. My goal is to create pixel-perfect websites that not only meet the client's needs but also exceed their expectations.",
+        "journey": "My career in web development began during my years at High School, where I majored in Software Engineering. My first job was at a small software house, where I learned the ropes of web development and discovered my passion for coding. Over the years, I have had the opportunity to work on numerous exciting projects. Each experience has contributed to my growth as a developer and has helped me hone my skills.",
+        "values": "I believe in continuous learning and improvement. I am driven by a desire to create websites that are not only functional but also aesthetically pleasing. My work is guided by the principles of simplicity, usability, and accessibility. I strive to keep up with the latest trends and technologies in web development to ensure that my skills are always up to date.",
+        "funfact": "I don't have any fun facts yet 😭."
+    },
+    "Services": {
+        "title": "Services",
+        "metaDesc": "Explore the specialized services Teguh Muhammad Harits offers, from web development, app development, UI/UX, design to consulting. Tailored solutions to bring your digital vision to life.",
+        "subtitle": "Learn about the specialized services I offer to clients.",
+        "FAQ": {
+            "faqHeading": "Frequently Asked Questions",
+            "faqDescription": "Quick answers to common questions about my services",
+            "contactText": "Got any more question?",
+            "contactLink": "Get in touch"
+        }
+    },
+    "Contact": {
+        "title": "Get in Touch",
+        "metaDesc": "Reach out to Teguh Muhammad Harits for potential collaborations or inquiries. Connect via social media or send a direct message.",
+        "subtitle": "Reach out and start a conversation about potential collaborations or inquiries.",
+        "findSocial": "Find me on social media",
+        "orsendMsg": "Or send me a message",
+        "name": "Name",
+        "namePlaceholder": "Insert your name *",
+        "mail": "Mail",
+        "mailPlaceholder": "Insert your email *",
+        "projectDesc": "Project Description",
+        "descPlaceholder": "Write me your project description *",
+        "sendMsg": "Send a Message"
+    },
+    "Guestbook": {
+        "title": "Guestbook",
+        "metaDesc": "Share your thoughts, suggestions, or questions in the guestbook. Let's keep the conversation going!",
+        "subtitle": "Leave whatever you like to say, suggestions, questions or anything!",
+        "signInMessage": "Please sign in to send a message. Don’t worry, your data is safe—learn more in ",
+        "privacyPolicy": "Privacy Policy"
+    },
+    "Blog": {
+        "title": "Blog",
+        "metaDesc": "Dive into articles on code, creativity, and learning by Teguh Muhammad Harits. Insights and updates from a Full-stack Developer's journey.",
+        "subtitle": "Exploring the world of code, creativity, and constant learning."
+    },
+    "Common": {
+        "comingsoon": "Coming Soon ....",
+        "back": "Back"
+    },
+    "Dashboard": {
+        "title": "Dashboard",
+        "metaDesc": "Explore the personal dashboard of Teguh Muhammad Harits, showcasing page speed insights, GitHub contributions, and LeetCode progress.",
+        "subtitle": "This is my personal website dashboard built with serverless function",
+        "pagespeedTitle": "Pagespeed Insights",
+        "githubTitle": "GitHub Contributions",
+        "leetcodeTitle": "LeetCode Statistics",
+        "pagespeedSubtitle": "Page Speed Index by Google API",
+        "githubSubtitle": "My contributions from last year on github.",
+        "leetcodeSubtitle": "My LeetCode statistics progress and performance."
+    },
+    "Skillset": {
+        "title": "Skillset",
+        "metaDesc": "Discover Teguh Muhammad Harits's technical skills, professional tools, and certificates that highlight his expertise in Full-stack development.",
+        "subtitle": "Discover related my technical skills and professional tools.",
+        "certificateTitle": "Certificates",
+        "certificateSubtitle": "A showcase of my professional certificates."
+    },
+    "Experience": {
+        "title": "Experience",
+        "metaDesc": "Explore the professional background of Teguh Muhammad Harits, highlighting key experiences and career achievements.",
+        "subtitle": "Find out my professional background and valuable experiences."
+    },
+    "Portfolio": {
+        "title": "Portfolio",
+        "metaDesc": "Browse the portfolio of Teguh Muhammad Harits, showcasing his latest projects and creative achievements in web development, app development, UI/UX design, Design and more.",
+        "subtitle": "Explore my latest projects and creations.",
+        "noPortfolio": "Apologies, there are currently no portfolios available for the {category} category.",
+        "seePortfolio": "See Project"
+    },
+    "Privacy": {
+        "title": "Privacy Policy",
+        "metaDesc": "Understand how I handle privacy on this website, including data collection, usage, and security measures.",
+        "subtitle": "This privacy policy explains how I collect, use, and protect your information.",
+        "information_collected": "I collect information that you provide to me directly, such as your name and email address.",
+        "usage": "I use this information to improve my services and communicate with you.",
+        "security": "I take the security of your information seriously and implement measures to protect it.",
+        "contact": "If you have any questions, please contact me at ",
+        "subtitles": {
+            "information_collected": "Information I Collect",
+            "usage": "Usage of Information",
+            "security": "Security of Your Information",
+            "contact": "Contact Me"
+        }
+    },
+    "Offline": {
+        "title": "You're Offline",
+        "metaDesc": "You are currently offline. Please check your internet connection and try again to access the website content.",
+        "subtitle": "No internet connection detected.",
+        "message": "It looks like you are currently offline. Please check your internet connection and try again.",
+        "retry": "Try Again"
+    }
+}

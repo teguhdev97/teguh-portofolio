@@ -1,0 +1,132 @@
+{
+  "Sidebar": {
+    "welcome": "ようこそ！",
+    "lastupdate": "最終更新日",
+    "dark": "ダーク",
+    "light": "ライト",
+    "openSource": "GPLライセンスのオープンソース"
+  },
+  "Home": {
+    "greeting": "皆さん、こんにちは",
+    "iam": "私は",
+    "based": "ジョグジャカルタ（インドネシア）在住",
+    "introduction": "経験豊富なフルスタック開発者",
+    "passion": "効率的でスケーラブルなアプリケーションや、機能的なデジタルソリューションを構築することで、素晴らしいWeb体験を生み出すことに情熱を注いでいます。",
+    "motto": "デジタルの夢を形に",
+    "openToOpportunities": "興味深い機会にオープンです",
+    "collaboration": "一緒に仕事をしましょう！",
+    "freelance": "フリーランスのプロジェクトも受け付けています。ご興味があればメールでご連絡ください。",
+    "getInTouch": "お問い合わせ",
+    "getResume": "履歴書をダウンロード",
+    "share_title": "私の個人ウェブサイト",
+    "thank_you_message": "ご訪問ありがとうございます！😊 ぜひお友達とシェアしてください。🎉",
+    "share_link": "リンクを共有",
+    "link_copied": "リンクをコピーしました！",
+    "techstack": "使用技術"
+  },
+  "About": {
+    "title": "私について",
+    "metaDesc": "Teguh Muhammad Haritsについて詳しく知ることができます。Webコーディング、UI/UXデザイン、アプリ開発に精通した経験豊富なフルスタック開発者です。",
+    "subtitle": "私をもっと知り、履歴書の裏側にあるストーリーを発見しましょう。",
+    "journeyTitle": "私のキャリアの旅",
+    "valuesTitle": "価値観と哲学",
+    "funTitle": "興味深い事実",
+    "intro": "こんにちは、私はTeguh Muhammad Harits、ダイナミックでユーザーフレンドリーなWebサイトの構築に情熱を持つフルスタック開発者です。2年以上の経験を持ち、フロントエンド開発に注力し、デザインや細部へのこだわりを大切にしています。クライアントの期待を超えるピクセル単位で完璧なWebサイトを作ることを目標としています。",
+    "journey": "私のWeb開発キャリアは、高校時代にソフトウェア工学を専攻していた頃に始まりました。最初の仕事は小規模なソフトウェア会社で、Web開発の基礎を学び、コーディングへの情熱を見つけました。それ以来、さまざまな興味深いプロジェクトに携わる機会を得ました。すべての経験が私の成長に寄与し、スキルを磨く助けとなりました。",
+    "values": "私は継続的な学習と自己成長を信じています。機能的であるだけでなく、美的にも魅力的なWebサイトを作ることに動機づけられています。私の仕事はシンプルさ、使いやすさ、アクセス可能性の原則に基づいています。最新のWeb開発技術とトレンドを追い、スキルを常にアップデートしています。",
+    "funfact": "まだ面白い事実はありません 😭。"
+  },
+  "Services": {
+    "title": "サービス",
+    "metaDesc": "Teguh Muhammad Haritsが提供するWeb開発、アプリ開発、UI/UX、デザイン、コンサルティングなどの専門サービスをご覧ください。デジタルビジョンを実現するカスタマイズされたソリューションです。",
+    "subtitle": "私が提供する専門サービスを見つけてください。",
+    "FAQ": {
+      "faqHeading": "よくある質問",
+      "faqDescription": "サービスに関する一般的な質問への簡単な回答",
+      "contactText": "その他の質問がありますか？",
+      "contactLink": "お問い合わせください"
+    }
+  },
+  "Contact": {
+    "title": "お問い合わせ",
+    "metaDesc": "コラボレーションや質問のためにTeguh Muhammad Haritsに連絡してください。SNSや直接メッセージで繋がれます。",
+    "subtitle": "お問い合わせいただき、仕事の可能性や質問について話しましょう。",
+    "findSocial": "SNSで私を見つける",
+    "orsendMsg": "またはメッセージを送信",
+    "name": "名前",
+    "namePlaceholder": "あなたの名前を入力してください *",
+    "mail": "メール",
+    "mailPlaceholder": "あなたのメールを入力してください *",
+    "projectDesc": "プロジェクトの説明",
+    "descPlaceholder": "あなたのプロジェクトについて教えてください *",
+    "sendMsg": "メッセージを送信"
+  },
+  "Guestbook": {
+    "title": "ゲストブック",
+    "metaDesc": "ゲストブックで考え、提案、質問を共有してください。会話を続けましょう！",
+    "subtitle": "言いたいこと、提案、質問、その他何でも残してください！",
+    "signInMessage": "メッセージを送信するにはログインしてください。ご安心ください、データは安全です—詳細はこちら ",
+    "privacyPolicy": "プライバシーポリシー"
+  },
+  "Blog": {
+    "title": "ブログ",
+    "metaDesc": "Teguh Muhammad Haritsによるコード、クリエイティブ、学習に関する記事を見つけましょう。経験と更新情報を提供します。",
+    "subtitle": "コード、クリエイティブ、学習の世界を探索しましょう。"
+  },
+  "Common": {
+    "comingsoon": "近日公開....",
+    "back": "戻る"
+  },
+  "Dashboard": {
+    "title": "ダッシュボード",
+    "metaDesc": "Teguh Muhammad Haritsの個人ダッシュボードでページ速度、GitHub貢献、LeetCodeの進捗を確認できます。",
+    "subtitle": "サーバーレス関数で作成した私の個人ダッシュボードです。",
+    "pagespeedTitle": "ページ速度インサイト",
+    "githubTitle": "GitHub貢献",
+    "leetcodeTitle": "LeetCode統計",
+    "pagespeedSubtitle": "Google APIによる私のページ速度指数",
+    "githubSubtitle": "昨年のGitHubでの貢献",
+    "leetcodeSubtitle": "LeetCodeの進捗とパフォーマンス"
+  },
+  "Skillset": {
+    "title": "スキルセット",
+    "metaDesc": "Teguh Muhammad Haritsの技術スキル、プロフェッショナルツール、フルスタック開発における認定証を確認できます。",
+    "subtitle": "技術スキルとプロフェッショナルツールを探索しましょう。",
+    "certificateTitle": "認定証",
+    "certificateSubtitle": "私のプロフェッショナル認定証のいくつかのショーケース"
+  },
+  "Experience": {
+    "title": "経験",
+    "metaDesc": "Teguh Muhammad Haritsのプロフェッショナルな背景、主要な経験とキャリアでの成果をご覧ください。",
+    "subtitle": "私のプロフェッショナルな背景と貴重な経験を確認してください。"
+  },
+  "Portfolio": {
+    "title": "ポートフォリオ",
+    "metaDesc": "Teguh Muhammad Haritsのポートフォリオを探索し、最新プロジェクトやクリエイティブな成果をご覧ください。",
+    "subtitle": "最新のプロジェクトと作品をチェックしましょう。",
+    "noPortfolio": "申し訳ありません、現在 {category} のポートフォリオはありません",
+    "seePortfolio": "プロジェクトを見る"
+  },
+  "Privacy": {
+    "title": "プライバシーポリシー",
+    "metaDesc": "このサイトでのプライバシー管理方法、データ収集、利用、保護措置について理解してください。",
+    "subtitle": "このプライバシーポリシーでは、情報の収集、使用、保護方法を説明します。",
+    "information_collected": "お客様が直接提供する情報（名前、メールなど）を収集します。",
+    "usage": "収集した情報はサービス向上や連絡に使用します。",
+    "security": "情報の安全を最大限に確保し、適切な保護手段を講じています。",
+    "contact": "ご質問がある場合はこちらまでご連絡ください ",
+    "subtitles": {
+      "information_collected": "収集情報",
+      "usage": "情報の利用",
+      "security": "情報のセキュリティ",
+      "contact": "お問い合わせ"
+    }
+  },
+  "Offline": {
+    "title": "オフラインです",
+    "metaDesc": "現在オフラインです。インターネット接続を確認して、再度アクセスしてください。",
+    "subtitle": "インターネット接続が検出されません。",
+    "message": "現在オフラインのようです。接続を確認して再試行してください。",
+    "retry": "再試行"
+  }
+}
