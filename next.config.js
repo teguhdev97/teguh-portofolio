@@ -27,6 +27,11 @@ const nextConfig = {
         hostname: process.env.NEXT_PUBLIC_SUPABASE_URL ? new URL(process.env.NEXT_PUBLIC_SUPABASE_URL).hostname : 'localhost',
         pathname: "/storage/v1/object/public/**",
       },
+      {
+        protocol: "https",
+        hostname: "media.teguhharits.com",
+        pathname: "/**",
+      },
     ],
     domains: [
       'firebasestorage.googleapis.com',
