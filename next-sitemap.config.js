@@ -1,17 +1,19 @@
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://teguhharits.com';
+
 module.exports = {
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://teguhdev.com',
+  siteUrl,
   generateRobotsTxt: true,
   alternateRefs: [
     {
-      href: 'https://teguhdev.com/en',
+      href: `${siteUrl}/en`,
       hreflang: 'en',
     },
     {
-      href: 'https://teguhdev.com',
+      href: siteUrl,
       hreflang: 'id',
     },
       {
-      href: 'https://teguhdev.com/jp',
+      href: `${siteUrl}/jp`,
       hreflang: 'jp',
     },
   ],

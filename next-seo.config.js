@@ -1,5 +1,5 @@
 const metaDescription = 'Teguh Muhammad Harits is a Full-Stack Developer, specializes in building efficient, scalable web & apps with seamless user experiences. Let’s bring your vision to life!';
-const metaImage = 'https://teguharis.vercel.app/og-image.png';
+const metaImage = `${process.env.NEXT_PUBLIC_SITE_URL || 'https://teguhharits.com'}/og-image.png`;
 
 const getDefaultSEOConfig = (locale) => ({
   title: 'Teguh Muhammad Harits - Personal Website',

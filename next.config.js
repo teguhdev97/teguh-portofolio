@@ -32,16 +32,10 @@ const nextConfig = {
       'firebasestorage.googleapis.com',
       'lh3.googleusercontent.com',
       'avatars.githubusercontent.com',
-      'teguhdev.com',
+      'teguhharits.com',
       'kvlzhhttysvupongigmr.supabase.co',
       "images.unsplash.com"
     ],
-  },
-webpack(config) {
-    const imageRule = config.module.rules.find(rule => rule.test?.test?.('.svg'));
-    if (imageRule) imageRule.exclude = /\.svg$/i;
-    config.module.rules.push({ test: /\.svg$/i, issuer: /\.[jt]sx?$/, use: ['@svgr/webpack'] });
-    return config;
   },
 };
 
