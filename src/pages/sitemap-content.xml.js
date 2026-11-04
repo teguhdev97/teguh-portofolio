@@ -12,7 +12,15 @@ export const getServerSideProps = async ({ res }) => {
   const entries = [
     ...posts
       .filter((post) => post.status === "published")
-      .map((post) => ({ path: `/blog/${encodeURIComponent(post.slug)}`, updated: post.updated_at || post.publishedAt })),
+      .flatMap((post) => {
+        const languages = post.translations
+          ? ["id", "en", "jp"].filter((language) => post.translations[language]?.title && post.translations[language]?.content)
+          : ["id"];
+        return languages.map((language) => ({
+          path: `${language === "id" ? "" : `/${language}`}/blog/${encodeURIComponent(post.slug)}`,
+          updated: post.updated_at || post.publishedAt,
+        }));
+      }),
     ...projects.flatMap((project) => [
       { path: `/portfolio/${encodeURIComponent(project.slug)}`, updated: project.updated_at },
       ...(project.isCaseStudy === false ? [] : [{ path: `/case-study/${encodeURIComponent(project.slug)}`, updated: project.updated_at }]),

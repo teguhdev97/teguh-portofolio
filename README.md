@@ -1,6 +1,6 @@
 # Teguh Muhammad Harits — Portfolio
 
-Portfolio publik berbasis Next.js dan Supabase dengan halaman proyek, case study, blog, serta SEO dinamis.
+Portfolio publik berbasis Next.js dan Supabase dengan halaman proyek, case study, blog multibahasa, serta SEO dinamis.
 
 ## Deployment
 
