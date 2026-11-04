@@ -86,6 +86,9 @@ const BlogDetail = ({ post }) => {
             <div className="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-orange-400/20 blur-3xl" />
             <div className="absolute -bottom-24 left-1/3 h-64 w-64 rounded-full bg-violet-500/20 blur-3xl" />
             <div className="relative mx-auto max-w-4xl text-center">
+              <p className="mb-5 text-xs font-semibold uppercase tracking-[.28em] text-orange-300">
+                Journal · {languageNames[locale] || languageNames.id} · {new Date(post.publishedAt).getFullYear()}
+              </p>
               <div className="mb-6 flex flex-wrap items-center justify-center gap-2">
                 {(post.tags || []).map((tag) => <span key={tag} className="rounded-full border border-white/15 bg-white/10 px-3 py-1 text-xs text-slate-200">{tag}</span>)}
               </div>
@@ -103,6 +106,16 @@ const BlogDetail = ({ post }) => {
           {post.coverImage && (
             <div className="relative z-[1] mx-auto -mt-1 aspect-[16/8] max-w-5xl overflow-hidden rounded-b-[2rem] border-x border-b border-stroke shadow-[0_30px_80px_-40px_rgba(15,23,42,.65)]">
               <Image src={post.coverImage} alt={post.title} fill priority className="object-cover" sizes="100vw" />
+            </div>
+          )}
+
+          {!post.coverImage && (
+            <div className="relative z-[1] mx-auto -mt-1 flex min-h-[170px] max-w-5xl items-center justify-between overflow-hidden rounded-b-[2rem] border-x border-b border-stroke bg-gradient-to-r from-orange-100 via-rose-50 to-violet-100 px-8 shadow-[0_30px_80px_-40px_rgba(15,23,42,.45)] dark:from-slate-800 dark:via-slate-900 dark:to-violet-950 sm:px-12">
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-[.25em] text-primary">Teguh Harits Journal</p>
+                <p className="mt-3 max-w-xl text-lg font-medium leading-relaxed text-title">Engineering notes, lessons learned, and ideas worth sharing.</p>
+              </div>
+              <span className="hidden text-7xl font-bold tracking-[-.08em] text-slate-900/5 dark:text-white/5 sm:block">TH</span>
             </div>
           )}
 
