@@ -7,7 +7,7 @@ import Container from "@/components/layouts/partials/Container"
 import Blog from "@/components/views/blog/Blog"
 
 
-const BlogPage = () => {
+const BlogPage = ({ posts }) => {
     
     const t = useTranslations('Blog');
     const { locale, pathname } = useRouter();
@@ -35,17 +35,17 @@ const BlogPage = () => {
                     title={t('title')}
                     description={t('subtitle')}
                 />
-                <Blog />
+                <Blog posts={posts} locale={locale} />
             </Container>
         </>
     )
 }
 
 export default BlogPage
-export const getStaticProps = async () => {
-
-    return {
-        props: {
-        },
-    };
+export const getServerSideProps = async () => {
+    const { getContent } = await import('@/lib/content');
+    const posts = (await getContent('blog'))
+        .filter((post) => post.status === 'published')
+        .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+    return { props: { posts } };
 };

@@ -15,6 +15,7 @@ const DetailPortfolioPage = ({ portfolio }) => {
     const slug = query.slug || '';
     const currentPath = pathname.replace('[slug]', slug);
     const currentPageURL = `${SITE_URL}${lang}${currentPath}`;
+    const image = portfolio.photos || `${SITE_URL}/og-image.png`;
     
     return (
         <>
@@ -29,6 +30,9 @@ const DetailPortfolioPage = ({ portfolio }) => {
                 canonical={currentPageURL}
                 openGraph={{
                     url: currentPageURL,
+                    title: portfolio.name,
+                    description: portfolio.excerpt,
+                    images: [{ url: image, alt: portfolio.name }],
                 }}
             />
             <BackToggle />

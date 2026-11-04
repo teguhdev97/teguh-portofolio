@@ -7,13 +7,12 @@ import { BsGithub } from "react-icons/bs";
 import { BiChevronRight, BiLinkExternal } from "react-icons/bi";
 
 import HtmlContent from "../blog/HtmlContent";
-import { PORTFOLIO_CATEGORIES, PORTFOLIO_TYPES } from "@/constants/data/portfolio";
+import { PORTFOLIO_TYPES } from "@/constants/data/portfolio";
 
 const DetailPortfolio = ({ portfolio, locale }) => {
   if (!portfolio) return null;
 
-  // const categoryData = PORTFOLIO_CATEGORIES.find(c => c.value === portfolio.category) || {};
-  // const typeData = PORTFOLIO_TYPES.find(t => t.value === portfolio.type) || {};
+  const typeData = PORTFOLIO_TYPES[portfolio.type] || {};
 
   // Images for gallery (main photo + screenshots)
   const images = useMemo(() => {
@@ -104,6 +103,21 @@ const DetailPortfolio = ({ portfolio, locale }) => {
             />
           </button>
         </div>
+      )}
+
+      {(portfolio.challenge || portfolio.solution || portfolio.result) && (
+        <section className="grid gap-4 md:grid-cols-3" aria-label="Case study">
+          {[
+            [locale === "en" ? "Challenge" : "Tantangan", portfolio.challenge],
+            [locale === "en" ? "Solution" : "Solusi", portfolio.solution],
+            [locale === "en" ? "Result" : "Hasil", portfolio.result],
+          ].filter(([, value]) => value).map(([title, value]) => (
+            <div key={title} className="card p-5">
+              <h2 className="font-semibold text-lg mb-2">{title}</h2>
+              <p className="text-sm text-subtext whitespace-pre-line">{value}</p>
+            </div>
+          ))}
+        </section>
       )}
 
       {/* TABS */}

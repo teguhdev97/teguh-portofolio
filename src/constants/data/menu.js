@@ -63,6 +63,15 @@ export const MENU_ITEMS = [
         },
     },
     {
+        href: "/case-study",
+        iconClass: "fad fa-magnifying-glass-chart",
+        label: {
+            en: "Case Studies",
+            id: "Studi Kasus",
+            jp: "ケーススタディ",
+        },
+    },
+    {
         href: "/blog",
         iconClass: "fad fa-rss",
         label: {

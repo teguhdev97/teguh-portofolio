@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import {
   BiCodeAlt,
   BiGridAlt,
-  BiPen,
+  BiMobileAlt,
   BiRightArrowAlt,
   BiServer,
 } from "react-icons/bi";
@@ -20,7 +20,7 @@ import Image from "@/components/elements/Image";
 
 import PortfolioCategory from "./PortfolioCategory";
 
-const Portfolio = ({ portfolios, locale }) => {
+const Portfolio = ({ portfolios, locale, basePath = "/portfolio" }) => {
   const [activeCategory, setActiveCategory] = useState("all");
   const [items, setItems] = useState(portfolios);
   const [noPortfolioMessage, setNoPortfolioMessage] = useState(null);
@@ -82,7 +82,7 @@ const Portfolio = ({ portfolios, locale }) => {
 
   // Fungsi mapping kategori ke warna
   const getBadgeColor = (category) => {
-    switch (category.toLowerCase()) {
+    switch ((category || "").toLowerCase()) {
       case "frontend":
         return "bg-green-100 text-green-600 border-green-600";
       case "backend":
@@ -97,7 +97,7 @@ const Portfolio = ({ portfolios, locale }) => {
   };
 
   const getBadgeIcon = (category) => {
-    switch (category.toLowerCase()) {
+    switch ((category || "").toLowerCase()) {
       case "frontend":
         return <BiGridAlt />;
       case "backend":
@@ -143,7 +143,7 @@ const Portfolio = ({ portfolios, locale }) => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.3, delay: index * 0.1 }}
               >
-                <Link href={`/portfolio/${slug}`}>
+                <Link href={`${basePath}/${slug}`}>
                   <div className="group/portfolio relative flex flex-col overflow-hidden rounded-xl h-full lg:hover:scale-[102%] transition-3s">
                     <div className="work__thumbnail aspect-thumbnail">
                       <div className="absolute flex items-center top-2 right-2 gap-2 z-[1]">
@@ -192,7 +192,7 @@ const Portfolio = ({ portfolios, locale }) => {
                         {name}
                       </h2>
                       <div className="flex flex-wrap gap-2 mt-4">
-                        {skill.map((skill, i) => (
+                        {(skill || []).map((skill, i) => (
                           <span
                             key={i}
                             className="badge flex items-center gap-1 text-xs"
