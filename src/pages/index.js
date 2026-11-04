@@ -5,14 +5,28 @@ import Head from "next/head";
 
 export default function Home() {
 
-  const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL;
+  const SITE_URL = "https://teguhharits.com";
   const { locale } = useRouter();
-  const lang = locale == 'en' ? '/en' : '';
+  const lang = locale === 'id' ? '' : `/${locale}`;
+  const meta = {
+    id: {
+      title: "Teguh Muhammad Harits | Full-Stack Developer Indonesia",
+      description: "Portofolio resmi Teguh Muhammad Harits, Full-Stack Developer Indonesia. Jelajahi proyek, studi kasus, pengalaman, layanan, dan artikel pengembangan web.",
+    },
+    en: {
+      title: "Teguh Muhammad Harits | Full-Stack Developer",
+      description: "The official portfolio of Teguh Muhammad Harits. Explore full-stack projects, case studies, experience, services, and web development articles.",
+    },
+    jp: {
+      title: "Teguh Muhammad Harits | フルスタック開発者",
+      description: "Teguh Muhammad Haritsの公式ポートフォリオ。プロジェクト、事例、経験、サービス、Web開発の記事をご覧ください。",
+    },
+  }[locale] || {};
   return (
     <>
       <NextSeo
-        title="Teguh Muhammad Harits - Personal Website"
-        description="Teguh Muhammad Harits is a passionate and versatile individual with a strong focus on web development. With expertise in Next.js, he creates dynamic and responsive websites that deliver seamless user experiences."
+        title={meta.title}
+        description={meta.description}
         additionalLinkTags={[
           { rel: 'alternate', hreflang: 'x-default', href: `${SITE_URL}` },
           { rel: 'alternate', hreflang: 'id', href: `${SITE_URL}` },
@@ -21,6 +35,8 @@ export default function Home() {
         canonical={`${SITE_URL}${lang}`}
         openGraph={{
           url: `${SITE_URL}${lang}`,
+          title: meta.title,
+          description: meta.description,
         }}
       />
       <Head>

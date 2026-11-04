@@ -1,16 +1,35 @@
-const metaDescription = 'Teguh Muhammad Harits is a Full-Stack Developer, specializes in building efficient, scalable web & apps with seamless user experiences. Let’s bring your vision to life!';
-const metaImage = `${process.env.NEXT_PUBLIC_SITE_URL || 'https://teguhharits.com'}/og-image.png`;
+const siteUrl = 'https://teguhharits.com';
+const metaImage = `${siteUrl}/og-image.png`;
+const googleSiteVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
 
-const getDefaultSEOConfig = (locale) => ({
-  title: 'Teguh Muhammad Harits - Personal Website',
-  defaultTitle: 'Teguh Muhammad Harits - Personal Website',
-  description: metaDescription,
+const localizedMeta = {
+  id: {
+    title: 'Teguh Muhammad Harits | Full-Stack Developer Indonesia',
+    description: 'Portofolio resmi Teguh Muhammad Harits, Full-Stack Developer Indonesia yang membangun aplikasi web modern, cepat, aman, dan mudah digunakan.',
+  },
+  en: {
+    title: 'Teguh Muhammad Harits | Full-Stack Developer',
+    description: 'The official portfolio of Teguh Muhammad Harits, a Full-Stack Developer building modern, fast, secure, and user-friendly web applications.',
+  },
+  jp: {
+    title: 'Teguh Muhammad Harits | フルスタック開発者',
+    description: 'モダンで高速、安全かつ使いやすいWebアプリケーションを開発するフルスタック開発者、Teguh Muhammad Haritsの公式ポートフォリオです。',
+  },
+};
+
+const getDefaultSEOConfig = (locale = 'id') => {
+  const meta = localizedMeta[locale] || localizedMeta.id;
+  return ({
+  title: meta.title,
+  defaultTitle: meta.title,
+  description: meta.description,
   openGraph: {
-    title: 'Teguh Muhammad Harits - Personal Website',
-    description: metaDescription,
+    title: meta.title,
+    description: meta.description,
     type: 'profile',
     siteName: 'Teguh Muhammad Harits',
-    locale: locale === 'id' ? 'id_ID' : 'en_US',
+    url: siteUrl,
+    locale: locale === 'id' ? 'id_ID' : locale === 'jp' ? 'ja_JP' : 'en_US',
     profile: {
       first_name: 'Teguh',
       last_name: 'Harits',
@@ -41,10 +60,13 @@ const getDefaultSEOConfig = (locale) => ({
   twitter: {
     handle: '@teguhdev',
     site: '@teguhdev',
-    title: 'Teguh Muhammad Harits - Personal Website',
     cardType: 'summary_large_image',
   },
   additionalMetaTags: [
+    ...(googleSiteVerification ? [{
+      name: 'google-site-verification',
+      content: googleSiteVerification,
+    }] : []),
     {
       name: 'robots',
       content: 'index, follow',
@@ -115,6 +137,7 @@ const getDefaultSEOConfig = (locale) => ({
       href: '/manifest.json',
     },
   ]
-});
+  });
+};
 
 export default getDefaultSEOConfig;

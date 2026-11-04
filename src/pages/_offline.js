@@ -20,6 +20,8 @@ const Fallback = () => {
       <NextSeo
         title={`${t('title')} - Teguh Muhammad Harits`}
         description={t('metaDesc')}
+        noindex
+        nofollow
         additionalLinkTags={[
           { rel: 'alternate', hreflang: 'x-default', href: `${SITE_URL}${pathname}` },
           { rel: 'alternate', hreflang: 'id', href: `${SITE_URL}${pathname}` },

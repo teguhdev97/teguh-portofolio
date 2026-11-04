@@ -3,6 +3,28 @@ const removeImports = require('next-remove-imports')();
 const nextConfig = {
   crossOrigin: 'anonymous',
   reactStrictMode: true,
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.teguhharits.com' }],
+        destination: 'https://teguhharits.com/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'teguh-portofolio-liard.vercel.app' }],
+        destination: 'https://teguhharits.com/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'teguh-portofolio-teguhcodedev3-1842s-projects.vercel.app' }],
+        destination: 'https://teguhharits.com/:path*',
+        permanent: true,
+      },
+    ];
+  },
   i18n: {
     locales: ['en', 'id','jp'],
     defaultLocale: 'id',

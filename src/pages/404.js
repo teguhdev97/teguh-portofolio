@@ -5,7 +5,7 @@ import Container from '@/components/layouts/partials/Container'
 const Custom404 = () => {
     return (
         <Container>
-            <NextSeo title="404 - Page Not Found" />
+            <NextSeo title="404 - Page Not Found" noindex nofollow />
             <section className="">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 mt-14">
                     <div className="mx-auto max-w-screen-sm text-center">
